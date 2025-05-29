@@ -1,6 +1,6 @@
 # Relive - Sitio y Herramientas
 
-Este repositorio contiene todo lo necesario para tu página web de **Relive - Servicio Técnico Electrónico** y los scripts auxiliares:
+Ete repositorio contiene todo lo necesario para tu página web de **Relive - Servicio Técnico Electrónico** y los scripts auxiliares:
 
 * **Front-end**: HTML, CSS, JavaScript y/o React.
 * **Back-end**: Node.js con Express.
