@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relive - Servicio Técnico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <button id="btn-toggle-sidebar">Categorías</button>
+    <input type="text" id="search" placeholder="Buscar producto...">
+  </header>
+
+  <aside id="sidebar" aria-hidden="true">
+    <button id="btn-close-sidebar">Cerrar</button>
+    <nav class="category-list">
+      <button data-cat="celulares">Celulares</button>
+      <button data-cat="repuestos">Repuestos</button>
+      <button data-cat="accesorios">Accesorios</button>
+      <button data-cat="herramientas">Herramientas</button>
+      <button data-cat="informatica">Informática</button>
+      <button data-cat="casayoficina">Casa y Oficina</button>
+      <button data-cat="adultos">Adultos</button>
+      <button data-cat="moda">Moda</button>
+      <button data-cat="otros">Otros</button>
+    </nav>
+  </aside>
+  <div id="overlay" hidden></div>
+
+  <main id="productos-container"></main>
+
+  <script type="module" src="main.js"></script>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+</body>
+</html>
